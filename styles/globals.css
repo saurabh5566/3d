@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  /* background-color: #f5f8ff; */
+  color: #2f2d2f;
+
+  /* display: flex; */
+  /* justify-content: center; */
+  /* padding-top: 100px; */
+
+  /* height: 100vh; */
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+div {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+div::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: black;
+    background: white;
+    height: 100%;
+  }
+}
+
+.disc-1{
+  background: url('../assets/ui/dise1.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
+
+.disc-2{
+  background: url('../assets/ui/dise2.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
+
+.disc-3{
+  background: url('../assets/ui/dise3.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
+
+.disc-4{
+  background: url('../assets/ui/dise4.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
+
+.disc-5{
+  background: url('../assets/ui/dise5.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
+
+.disc-6{
+  background: url('../assets/ui/dise6.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* filter: grayscale(100%); */
+}
